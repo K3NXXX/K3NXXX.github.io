@@ -435,7 +435,7 @@ img {
  }
  .evo_black__content::after {
     content: "";
-    background-image: url('./css/img/dec-2.svg');
+    background-image: url('../css/img/dec-2.svg');
     width: 498px;
     height: 572px;
     position: absolute;
@@ -492,7 +492,7 @@ img {
  }
 .evo_white__content::before {
     content: "";
-    background-image: url('./css/img/dec-3.svg');
+    background-image: url('../css/img/dec-3.svg');
     width: 274px;
     height: 257px;
     position: absolute;
@@ -501,7 +501,7 @@ img {
 }
 .evo_white__content::after {
     content: "";
-    background-image: url('./css/img/dec-4.svg');
+    background-image: url('../css/img/dec-4.svg');
     width: 324px;
     height: 311px;
     position: absolute;
@@ -537,7 +537,7 @@ img {
 }
 .evo_white__video {
     margin-top: 100px;
-    background-image: url('./css/img/evo-white-car.png');
+    background-image: url('../css/img/evo-white-car.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
