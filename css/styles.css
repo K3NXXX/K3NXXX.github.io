@@ -179,6 +179,24 @@ html {
    margin-bottom: 10px;
    color: rgba(255, 255, 255, 0.5);
 }
+.contacts__phone .side__tech-skills {}
+
+.tech-skills__list {
+   margin-top: 20px;
+}
+
+.list__item {
+   font-size: 14px;
+   color: #fff;
+   font-weight: normal;
+   margin-bottom: 13px;
+   margin-left: 18px;
+}
+
+.list__item::marker {
+   color: #ff6b08
+}
+
 /* -------------info----------------- */
 .info {
    padding: 100px 196px 100px 90px;
