@@ -251,8 +251,9 @@ html {
    margin-left: 18px;
    margin-bottom: 15px;
    position: relative;
-
-
+}
+.projects__list-item a {
+   color: #000;
 }
 .border {
    color: #a8a8a8;
