@@ -147,10 +147,7 @@ body {
     opacity: 0.8;
  }
 .train__right-part {
-    flex-basis: 50%;
-    margin-left: -247px;
-    z-index: -1;
-    
+    flex-basis: 50%; 
  }
 .train_main_img {
    transform: translateX(400px);
