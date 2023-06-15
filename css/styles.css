@@ -141,9 +141,6 @@ html {
    margin-bottom: 54px;
    max-width: 200px;
 }
-
-.contacts__title {}
-
 ._title {
    color: #000000;
    font-size: 22px;
@@ -153,7 +150,7 @@ html {
    max-width: 200px;
 }
 
-.contacts__phone {
+.contacts__phone, .contacts__github {
    color: rgba(255, 255, 255, 0.5);
    margin-bottom: 10px;
 }
@@ -171,29 +168,17 @@ html {
    font-weight: 700;
    margin-right: 10px;
 }
+.contacts__github::before {
+   content: "G:";
+   color: #ffffff;
+   font-weight: 700;
+   margin-right: 10px;
+}
 
 .contacts__email {
    margin-bottom: 10px;
    color: rgba(255, 255, 255, 0.5);
 }
-.contacts__phone .side__tech-skills {}
-
-.tech-skills__list {
-   margin-top: 20px;
-}
-
-.list__item {
-   font-size: 14px;
-   color: #fff;
-   font-weight: normal;
-   margin-bottom: 13px;
-   margin-left: 18px;
-}
-
-.list__item::marker {
-   color: #ff6b08
-}
-
 /* -------------info----------------- */
 .info {
    padding: 100px 196px 100px 90px;
